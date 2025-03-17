@@ -175,7 +175,7 @@ let secondName = "Shahid'
    Split: It Splits the string into substings using the specified seperator and return them as an array(Basically it converts the strings to arrays.)
    Join: A string used to seperate one element of the array from the next in the resulting array. (Basically it converts the arrays to strings.)
 
-   console.log(firstName.spllit("").join(""));
+   console.log(firstName.split("").join(""));
 
 7. Includes
    Using this method we can check if a alphabpet exisit in a string, this method returns a boolean value.
@@ -184,3 +184,29 @@ let secondName = "Shahid'
 8. Trim
    This methods allows us to remove the spaces in the strings.
    console.log(firstName.trim());
+
+Type Conversions:
+Conversion of string of a number to a number.
+
+let money="50";
+
+money = parseInt(money);
+money = +money;
+money = Number(money);
+
+console.log(money);
+console.log(typeof money);
+
+Conversion of number to a string.
+
+let money=50;
+money = money.toString();
+moeny = String(money);
+
+console.log(money);
+console.log(typeof money);
+
+Convert string to a decimal
+
+let money="50.245";
+money = parseFloat(money);
